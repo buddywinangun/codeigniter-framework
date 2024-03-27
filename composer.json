@@ -4,7 +4,6 @@
     "type": "library",
     "homepage": "https://github.com/buddywinangun/codeigniter-xtend",
     "license": "MIT",
-    "minimum-stability": "stable",
     "keywords": [
         "CodeIgniter",
         "Framework",
@@ -25,7 +24,7 @@
         }
     ],
     "require": {
-        "php": "^5.6|^8.0",
+        "php": "^7.0|~8.1.0",
         "twig/twig": "^3.8",
         "intervention/image": "^2.7"
     },
@@ -35,12 +34,17 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.2-dev"
+            "dev-master": "4.1-dev"
         }
     },
     "scripts": {
         "test": [
             "phpunit"
         ]
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
